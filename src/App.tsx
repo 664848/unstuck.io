@@ -13,13 +13,13 @@ import PageNotFound from './components/PageNotFound'
 import routes from './config/routes'
 
 firebase.initializeApp({
-  apiKey: 'AIzaSyDcQ8vdJxqbKCWbsD7NM3HoRx8YQ3UhXP0',
-  authDomain: 'unstuckio.firebaseapp.com',
-  projectId: 'unstuckio',
-  storageBucket: 'unstuckio.appspot.com',
-  messagingSenderId: '648167466748',
-  appId: '1:648167466748:web:02857bbb352761f2015979',
-  measurementId: 'G-PVX8ET9Z3G',
+  apiKey: '',
+  authDomain: '',
+  projectId: '',
+  storageBucket: '',
+  messagingSenderId: '',
+  appId: '',
+  measurementId: '',
 })
 
 const auth = firebase.auth()
