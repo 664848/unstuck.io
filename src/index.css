@@ -1,13 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;600&display=swap');
+
+/* font-family: 'Bebas Neue', cursive */
+/* font-family: 'Lobster', cursive; */
+/* font-family: 'Comfortaa', cursive; */
+/* font-family: 'Indie Flower', cursive; */
+/* font-family: 'Handlee', cursive; */
+/* font-family: 'Catamaran', sans-serif; */
+/* font-family: 'Rajdhani', sans-serif; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  color: whitesmoke;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.secondLastMessage div:first-of-type {
+  border: none;
+}
+
+.messagesContainer {
+  width: calc(100vw - 3rem - 6px);
+}
+
+.svgBackground-2 {
+  background-image: url('./background/bg-2.svg');
+}
+
+.custom-shape-divider-bottom-1629654054 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1629654054 svg {
+  position: relative;
+  display: block;
+  width: calc(119% + 1.3px);
+  height: 135px;
+}
+
+.custom-shape-divider-bottom-1629654054 .shape-fill {
+  fill: #255c99;
+}
+
+.custom-shape-divider-top-1629654911 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1629654911 svg {
+  position: relative;
+  display: block;
+  width: calc(166% + 1.3px);
+  height: 120px;
+}
+
+.custom-shape-divider-top-1629654911 .shape-fill {
+  fill: #255c99;
+}
+
+.custom-shape-divider-bottom-1629667943 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1629667943 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 135px;
+}
+
+.custom-shape-divider-bottom-1629667943 .shape-fill {
+  fill: #10b981;
+}
+
+.custom-shape-divider-top-1629668037 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1629668037 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 135px;
+}
+
+.custom-shape-divider-top-1629668037 .shape-fill {
+  fill: #10b981;
 }
